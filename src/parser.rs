@@ -3,11 +3,13 @@ pub struct Identifier(String);
 
 #[derive(Debug)]
 pub struct Int(i128);
-#[derive(Debug)]
 
+#[derive(Debug)]
 pub struct PyString(String);
+
 #[derive(Debug)]
 pub struct Bytes(Vec<u8>);
+
 #[derive(Debug)]
 pub struct Object(());
 
